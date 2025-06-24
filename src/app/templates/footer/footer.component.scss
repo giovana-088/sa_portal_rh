@@ -1,0 +1,35 @@
+.footer {
+  background-color: #1e1e2f;
+  /* Tom escuro mais moderno */
+  color: #f0f0f0;
+  /* Texto mais suave para contraste */
+  padding: 20px 10px;
+  /* Espaçamento interno aumentado */
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.95rem;
+  /* Tamanho de texto ajustado */
+  letter-spacing: 0.5px;
+  /* Espaçamento entre letras */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  /* Sombra superior para destaque */
+  z-index: 1000;
+  /* Garante que fique acima de outros elementos */
+  transition: all 0.3s ease-in-out;
+}
+
+.footer a {
+  color: #80b3ff;
+  /* Cor de link suave */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  /* Destaque ao passar o mouse */
+}
